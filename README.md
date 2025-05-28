@@ -75,6 +75,6 @@ print("confusion matrix:\n", confusion_matrix(y_test, y_pred))
 ## 👨‍💻 Author 
 **Ritam Mondal**
 - Dual Degree, Industrial & Systems Engineering
-- Indian Institute of Technology Kharagpur
-- GitHub · LinkedIn https://www.linkedin.com/in/ritam-mondal-86a369287/ 
+- Indian Institute of Technology Kharagpur  
+- LinkedIn https://www.linkedin.com/in/ritam-mondal-86a369287/ 
 - Email: ritamm134@gmail.com
