@@ -44,11 +44,21 @@ This project focuses on building a supervised machine learning pipeline to predi
 
 ## 📊 Evaluation Metrics
 
-- Accuracy
-- Precision & Recall
+
+print("confusion matrix:\n", confusion_matrix(y_test, y_pred))
+
+- Accuracy `accuracy_score(y_test,y_pred)*100:.2f`
+- Precision `precision_score(y_test,y_pred)*100:.2f` & Recall `recall_score(y_test,y_pred)*100:.2f`
 - Confusion Matrix (visualized as heatmap)
+  `confusion_matrix(y_test, y_pred)`
+  
+  ```
+  cm = confusion_matrix(y_test, y_pred)
+  sns.heatmap(cm, annot=True, fmt='d', cmap='Oranges',
+            xticklabels=['Predicted Negative', 'Predicted Positive'],
+            yticklabels=['Actual Negative', 'Actual Positive'])  
 - ROC Curve & AUC Score
-- Threshold Tuning Trade-off Curve
+- Threshold Tuning Trade-off Curve 
 
 ---
 
@@ -61,10 +71,10 @@ This project focuses on building a supervised machine learning pipeline to predi
 
 ---
 
-## 🤖 User Prediction
 
-Allows real-time user input (via CLI) to predict diagnosis using the trained model:
-
-```python
-user_input = [[value1, value2, ..., value30]]
-prediction = final_model.predict(user_input)
+## 👨‍💻 Author 
+**Ritam Mondal**
+- Dual Degree, Industrial & Systems Engineering
+- Indian Institute of Technology Kharagpur
+- GitHub · LinkedIn https://www.linkedin.com/in/ritam-mondal-86a369287/ 
+- Email: ritamm134@gmail.com
