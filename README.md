@@ -39,6 +39,7 @@ This project focuses on building a supervised machine learning pipeline to predi
   - Tested multiple solvers (`liblinear`, `saga`) and penalties (`l1`, `l2`, `elasticnet`)
 - **Final Model**:
   - Selected best model using `.best_estimator_`
+  - Display the best parameters `.best_params_`
 
 ---
 
