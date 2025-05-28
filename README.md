@@ -9,7 +9,7 @@ This project focuses on building a supervised machine learning pipeline to predi
 
 ## 📁 Dataset
 
-- **Source**: scikit-learn’s built-in `load_breast_cancer()` dataset
+- **Source**: dataset can be found on kaggle: https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data/data
 - **Samples**: 569 tumor records
 - **Features**: 30 numerical features (e.g., `radius_mean`, `concavity_mean`, `area_mean`, etc.)
 - **Target**: `diagnosis` (Benign = 0, Malignant = 1)
