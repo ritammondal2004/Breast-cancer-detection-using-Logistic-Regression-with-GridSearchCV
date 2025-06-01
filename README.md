@@ -1,6 +1,15 @@
 # Breast-cancer-detection-using-Logistic-Regression-with-GridSearchCV
 detect whether the cancer is benign or malignant using Logistic regression, SVM building the best model using GridSearchCV
 
+## 👨‍💻 Author 
+**Ritam Mondal**
+- Dual Degree, Industrial & Systems Engineering
+- Indian Institute of Technology Kharagpur  
+- connect me on [LinkedIn](https://www.linkedin.com/in/ritam-mondal-86a369287/) 
+- Email: ritamm134@gmail.com
+
+---
+
 # 🧠 Breast Cancer Detection using Logistic Regression and SVC
 
 This project focuses on building a supervised machine learning pipeline to predict whether a tumor is **benign (0)** or **malignant (1)** using the **Breast Cancer Wisconsin Dataset**. We use **Logistic Regression** and **Support Vector Machine (SVC)** with **hyperparameter tuning (GridSearchCV)** and visualizations to evaluate model performance.
@@ -9,7 +18,9 @@ This project focuses on building a supervised machine learning pipeline to predi
 
 ## 📁 Dataset
 
-- **Source**: dataset can be found on kaggle: https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data/data
+- **Source**: dataset can be found on [kaggle breast cancer dataset](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data/data)
+
+  or also get the dataset [here](dataset/breast_cancer.csv)
 - **Samples**: 569 tumor records
 - **Features**: 30 numerical features (e.g., `radius_mean`, `concavity_mean`, `area_mean`, etc.)
 - **Target**: `diagnosis` (Benign = 0, Malignant = 1)
@@ -73,9 +84,3 @@ print("confusion matrix:\n", confusion_matrix(y_test, y_pred))
 ---
 
 
-## 👨‍💻 Author 
-**Ritam Mondal**
-- Dual Degree, Industrial & Systems Engineering
-- Indian Institute of Technology Kharagpur  
-- LinkedIn https://www.linkedin.com/in/ritam-mondal-86a369287/ 
-- Email: ritamm134@gmail.com
